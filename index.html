@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="estilo.css">
+
+
+
+    <title>Restaurante Cielo</title>
+
+</head>
+
+
+
+<body>
+
+    <div id="contenedor">
+
+
+        <div id="cabecera">
+
+            <img src="images/manoscreacion.png" alt="Muestra el logo de la empresa">
+
+            <h1>Restaurante<span class='spanmorado'>Cielo</span></h1>
+
+        </div>
+
+
+
+        <div id="nav">
+
+            <ul id="menu">
+
+                <li><a class="active" href="#informacion">Información</a></li>
+
+                <li><a href="#1er plato menú">1er plato menú</a></li>
+
+                <li><a href="#2o plato menú">2o plato menú</a></li>
+
+                <li><a href="#reserva">Reserva tu mesa</a></li>
+
+                <li><a href="#video">Vídeo</a></li>
+
+            </ul>
+
+        </div>
+
+
+
+        <div id="contenido">
+
+            <div id="informacion" class="apartado">
+
+                <h1>Información Codiv-19</h1>
+
+                <img src="images/informacion.jpg" alt="Imagen donde se muestra ua chica con una mascarilla">
+
+
+                <p>
+
+                    <mark>Sala</mark> se deberá reestructurar la disposición de las mesas en la sala con el fin de respetar el régimen de distancias entre ellas, que deberá ser de 1,5 metros. Habrá geles de hidroalcohol en la entrada del local y a la
+
+                    salida de los aseos.
+
+                </p>
+
+                <p>
+
+                    <mark> Recepción de pedidos:</mark> es importante establecer diferentes rangos horarios para la recepción de las mercancías para poder desinfectar la zona de recepción entre pedido y pedido.
+
+                    </p<p>
+
+                    Se eliminarán los envoltorios de los productos antes de que entren en el local, se desinfectarán, uno por uno, y los productos frescos entrarán en box de plástico previamente desinfectado.
+
+                </p>
+
+
+
+            </div>
+
+
+
+            <div id="1er plato menú" class="apartado">
+
+                <h1>1er plato menú</h1>
+
+                <img src="images/paella.png" alt="Imagen donde se muestra un bocadillo">
+
+                <table>
+
+                    <tr>
+
+                        <th></th>
+
+                        <th>Primer plato</th>
+
+                        <th>Ingredientes</th>
+
+                        <th>precio</th>
+
+                    </tr>
+
+                    <tr>
+
+                        <td>1</td>
+
+                        <td>Diario</td>
+
+                        <td>Estofado</td>
+
+                        <td>6.50</td>
+
+                    </tr>
+
+                    <tr>
+
+                        <td>2</td>
+
+                        <td>Fin de semana</td>
+
+                        <td>Arroz</td>
+
+                        <td>7.00</td>
+
+                    </tr>
+
+                </table>
+
+            </div>
+
+
+
+            <div id="2o plato menú" class="apartado">
+
+                <h1>2o plato menú</h1>
+
+                <img src="images/parillada.png" alt="Imagen donde se muestra un bocadillo">
+
+
+
+                <ul>
+
+                    <li>Fritura de pescado
+
+                        <ul>
+
+                            <li>1 ración: 7.20</li>
+
+                            <li>Media ración: 4.80</li>
+
+                        </ul>
+
+                    </li>
+
+                    <li>Parrillada
+
+                        <ul>
+
+                            <li>1 ración: 3.00</li>
+
+                            <li>Media ración: 2.50</li>
+
+                        </ul>
+
+                    </li>
+
+                    <li>Ensalada
+
+                        <ul>
+
+                            <li>Al centro: 2.00</li>
+
+                            <li>Individual: 1.80</li>
+
+                        </ul>
+
+                    </li>
+
+                </ul>
+
+            </div>
+
+            <div id="reserva" class="apartado">
+
+                <h1>Reserva tu mesa</h1>
+
+                <img src="images/reserva.jpg" alt="Imagen donde se muestra un bocadillo">
+
+
+
+
+
+                <form action="#" target="" method="get" name="formDatosPersonales">
+
+
+
+
+
+                    <label for="cliente">IdCliente</label>
+
+                    <input type="number" type="number" min="999" max="9999" name="cliente" id="cliente" placeholder="cliente" />
+
+                    <br>
+
+                    <label for="menu-select">Elige bocadillo:</label>
+
+
+
+                    <select name="Menú" id="menú-select">
+
+                    <option value="">--Elige menú--</option>
+
+                    <option value="1er menú">Chorizo</option>
+
+                    <option value="2o menú">Beacon</option>
+
+                    <option value="mixto">Choped</option>
+
+                    </select>
+
+                    <br>
+
+                    <label for="mensaje">Mensaje</label>
+
+                    <textarea name="mensaje" for="mensaje" placeholder="Deja una nota sobre el pedido" maxlength="300"></textarea>
+
+
+
+                    <input type="submit" name="enviar" value="enviar datos" />
+
+                </form>
+
+            </div>
+
+
+
+            <div id="video" class="apartado">
+
+                <h1>¡Buenos días!</h1>
+
+                <p>Ejemplo (ver codigo fuente) para añadir vídeo</p>
+
+                <iframe width="560" height="315" src="https://youtu.be/T5PsJGUxaiI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+                <p>Web del Centro</p>
+
+                <iframe width="560" height="315" src="https://youtu.be/T5PsJGUxaiI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+            </div>
+
+
+
+
+
+            <br>
+
+        </div>
+
+
+        <div id="pie">
+
+            <a href="http://iesalhadra.org/wpAlhadra/"><img src="images/manoscreacion.png" alt="Muestra el logo de la empresa"></a>
+
+        </div>
+
+    </div>
+
+
+
+</body>
+
+
+
+</html>
